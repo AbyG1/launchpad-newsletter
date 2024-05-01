@@ -1,0 +1,59 @@
+
+body{
+    background-color: #EBECF0;
+    font-family: "Raleway", sans-serif; 
+}
+
+.container{
+    width:800px;
+    background-color:#FFFBF7;
+    margin: 0 auto;
+    padding: 10px 50px;
+    
+}
+
+.heading{
+    font-size: 4rem;
+    color:#EF7E28;
+    text-transform: uppercase;
+    padding:0;
+    margin: 0;
+    text-align:center;
+}
+
+header p {
+    margin:0
+
+}
+
+.two{
+    display: flex;
+   
+}
+
+.left,.right{
+    flex:1;
+   
+}
+
+.right{
+    border-left: 4px solid #EF7E28;
+    padding:0 20px;
+    
+}
+
+.left{
+    padding-right: 20px;
+    text-align: justify;
+}
+
+a{
+    padding:10px 20px;
+    background: #EF7E28;
+    color:white;
+    border-radius: 10px;
+}
+
+span{
+    font-weight: bold;
+}
